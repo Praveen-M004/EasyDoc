@@ -49,7 +49,7 @@ const Register = () => {
 
   return (
     <>
-      <Navbar expand="lg" rounded-bottomclassName="bg-body-tertiary rounded-bottom">
+      <Navbar expand="lg" className="bg-body-tertiary rounded-bottom">
         <Container fluid>
           <Navbar.Brand>
             <Link to={'/'} className="fw-bold font-monospace"style={{fontSize:"25px", color:"green"}}>EasyDoc</Link>
