@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import { Container, Button } from 'react-bootstrap';
 
-import p3 from '../../images/p3.webp'
+import p3 from '../common/01.png'
 
 const Home = () => {
   return (
