@@ -68,7 +68,7 @@ const Login = () => {
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
           <Navbar.Brand>
-            <Link to={'/'}>EasyDOC</Link>
+            <Link to={'/'} className="fw-bold font-monospace"style={{fontSize:"25px", color:"green"}}>EasyDoc</Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -89,7 +89,7 @@ const Login = () => {
       </Navbar>
 
 
-      <MDBContainer className="my-5">
+      <MDBContainer className="my-5 pt-5">
 
         <MDBCard style={{ border: 'none' }}>
           <MDBRow style={{ background: 'rgb(190, 203, 203)' }} className='g-0 border-none p-3'>
@@ -128,7 +128,7 @@ const Login = () => {
                     size="md"
                     autoComplete='off'
                   />
-                  <Button className="mb-4 px-5 bg-dark" size='lg' type='submit'>Login</Button>
+                  <Button className="mt-3 mb-4 px-5 bg-dark" size='lg' type='submit'>Login</Button>
                 </Form>
                 <p className="mb-5 pb-lg-2" style={{ color: '#393f81' }}>Don't have an account? <Link to={'/register'} style={{ color: '#393f81' }}>Register here</Link></p>
 

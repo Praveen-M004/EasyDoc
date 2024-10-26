@@ -49,16 +49,16 @@ const Register = () => {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" rounded-bottomclassName="bg-body-tertiary rounded-bottom">
         <Container fluid>
           <Navbar.Brand>
-            <Link to={'/'}>EasyDOC</Link>
+            <Link to={'/'} className="fw-bold font-monospace"style={{fontSize:"25px", color:"green"}}>EasyDoc</Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
+              style={{ maxHeight: '100px', backgroundcolor: '#e3f2fd' }}
               navbarScroll
             >
             </Nav>
@@ -73,7 +73,7 @@ const Register = () => {
       </Navbar>
 
 
-      <MDBContainer className="my-5">
+      <MDBContainer className="my-5 pt-5">
 
         <MDBCard style={{ border: 'none' }}>
           <MDBRow style={{ background: 'rgb(190, 203, 203)' }} className='g-0 border-none p-3'>

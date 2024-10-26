@@ -12,7 +12,7 @@ const Home = () => {
       <Navbar expand="lg" className="bg-body-tertiary lg">
         <Container fluid>
           <Navbar.Brand>
-            <Link to={'/'}>EasyDOC</Link>
+            <Link to={'/'} className="fw-bold font-monospace"style={{fontSize:"25px", color:"green"}}>EasyDoc</Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -41,7 +41,7 @@ const Home = () => {
             <span className='f-letter'>Effortlessly schedule your doctor</span><br />
             <span className='s-letter'>appointments with just a few clicks,</span> <br />
             <span className='t-letter'>putting your health in your hands.</span><br />
-            <Button variant='primary' className='mt-3 register'><Link to={'/Login'}>Book your Doctor</Link></Button>
+            <Button variant='primary' className='mt-3 register'><Link to={'/Login'} style={{color:"whitesmoke"}}>Book your Doctor</Link></Button>
           </p>
         </div>
       </div>
