@@ -236,3 +236,6 @@ progress::-webkit-progress-value {
   background-color: grey;
   border-radius: 10px;
 }
+body::-webkit-scrollbar {
+  display: none;
+  }
